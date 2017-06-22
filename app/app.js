@@ -1,6 +1,8 @@
 var myNinjaApp = angular.module("myNinjaApp", ['ngRoute', 'ngAnimate']); //dependency injection of ngRoute for routing 
 
-myNinjaApp.config(['$routeProvider', function($routeProvider){ // passing through dependecny routeProvider
+myNinjaApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){ // passing through dependecny routeProvider
+
+	// $locationProvider.html5Mode(true);   --> use for pretty URLs but cannot get it to work with refreshing active 
 
 	$routeProvider
 		.when('/home', {								//no # added here - only added in href 
@@ -81,6 +83,10 @@ myNinjaApp.controller("contactController", ['$scope', '$location', function($sco
 
 	$scope.sendMessage = function(){
 		$location.path("/contact-complete");
+	}
+
+	$scope.backAgain = function(){
+		$location.path("/contact");
 	}
 
 }])
