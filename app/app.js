@@ -1,12 +1,12 @@
 var myNinjaApp = angular.module("myNinjaApp", ['ngRoute']);
 
-myNinjaApp.config(['$routeProvider', function($routeProvider){
+myNinjaApp.config(['$routeProvider', function($routeProvider){ // passing through dependecny routeProvider
 
 	$routeProvider
 		.when('/home', {
 			templateUrl: 'views/home.html'
 		})
-		.when('/directory', {
+		.when('/_index.html#!/home#%2Fdirectory', {
 			templateUrl: 'views/directory.html',
 			controller: 'NinjaController'
 		})
