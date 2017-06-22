@@ -11,6 +11,9 @@ myNinjaApp.config(['$routeProvider', function($routeProvider){ // passing throug
 			templateUrl: 'views/directory.html',
 			controller: 'ninjaController'
 		})
+		.when('/contact',{
+			templateUrl: 'views/contact.html'
+		})
 		.otherwise({
 			redirectTo: '/home'
 		});
