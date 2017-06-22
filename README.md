@@ -20,5 +20,11 @@ Then, in the directory where you placed the above repository download, issue the
 
 ```live-server```
 
-This will automatically launch the default browser and away you go. 
+This will automatically launch your default browser with all the files from the repository available. 
+
+Click on **_index.html** and start having pointless fun with Ninjas.
+
+It's particularly pointless when there's no associated database or back-end whatsoever - I might build that in the not too distant future.
+
+:stuck_out_tongue_winking_eye:
 
