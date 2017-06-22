@@ -7,7 +7,7 @@ myNinjaApp.config(['$routeProvider', function($routeProvider){
 			templateUrl: 'views/home.html'
 		})
 		.when('/directory', {
-			templateurl: 'views/directory.html',
+			templateUrl: 'views/directory.html',
 			controller: 'NinjaController'
 		})
 		.otherwise({
