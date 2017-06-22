@@ -1,0 +1,25 @@
+[{
+	"name": "Yoshi",
+	"belt": "Green",
+	"rate": 50,
+	"available": true,
+	"thumb": "data/img/yoshi.png"
+}, {
+	"name": "Crystal",
+	"belt": "Yellow",
+	"rate": 30,
+	"available": true,
+	"thumb": "data/img/crystal.png"
+}, {
+	"name": "Ryu",
+	"belt": "Orange",
+	"rate": 10,
+	"available": true,
+	"thumb": "data/img/penguin_ninja.png"
+}, {
+	"name": "Shaun",
+	"belt": "Blue",
+	"rate": 1000,
+	"available": true,
+	"thumb": "data/img/ninja_red_band.png"
+}]
